@@ -38,9 +38,27 @@ ul.mainNav .activePage{
 
 /***** Hero Area Slider****/ 
 
-
 header.heroAreaCarousel{
 	position: relative;
+}
+
+header.heroAreaCarousel nav ol{
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+header.heroAreaCarousel nav li {
+	height: 6px;
+	width: 40px;
+	display: inline-block;
+	background-color: white;
+	opacity: .4;
+	cursor: pointer;
+}
+header.heroAreaCarousel nav li.active {
+	opacity:1;
 }
 
 header.heroAreaCarousel img{
