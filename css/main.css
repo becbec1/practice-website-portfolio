@@ -1,0 +1,109 @@
+*{
+	box-sizing:border-box;
+
+/***** Main Page Navigation *****/
+}
+header.pageHeader{
+	width: 61%;
+	margin: auto;
+	height:70px;
+}
+
+header nav {
+float:right;
+height: 70px;
+}
+
+header.pageHeader li {
+	padding-top: 17px;
+}
+
+ ul.mainNav li {
+	float:left;
+	margin:10px;
+	
+}
+ul.mainNav li a{
+	text-decoration: none;
+	color: #a3a3a3;
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 16px;	
+}
+ul.mainNav .activePage{
+	color: #f63c3c;
+	border-bottom: 4px solid #f63c3c;
+	padding-bottom: 18px;
+}
+
+
+/***** Hero Area Slider****/ 
+
+
+header.heroAreaCarousel{
+	position: relative;
+}
+
+header.heroAreaCarousel img{
+	max-width: 100%;
+}
+
+header.heroAreaCarousel>ul>li{
+	display: none;
+}
+
+header.heroAreaCarousel>ul>li.active{
+	display: block;
+}
+
+section.sliderText {
+	position: absolute;
+	top:180px;
+	color: #fff;
+	text-align: center;	
+	font-family: 'Teko', Helvetica, Arial, sans-serif;
+
+}
+
+section.sliderText  h1 {
+	
+	font-weight: 300;
+	font-size: 120px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 130px;
+	margin: 0 15%;
+}
+
+section.sliderText  p{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 22px;	
+	font-weight: 200;
+	margin: 11px 20% 35px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+section.sliderText button {
+	margin-top: 15px;
+	height:52px;
+	width: 232px;
+	border:none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1.6px;
+
+	
+}
+
+
+
+/***** Portfolio Gallery Section ******************/
+
+
+
+/***** Social Sharing *****/
+
+/***** Page Footer *******/
+
+
+
