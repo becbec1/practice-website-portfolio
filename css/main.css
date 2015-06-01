@@ -4,12 +4,10 @@
 
 body{
 	font-family: 'Teko', Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
 }
 
 button {
-	margin: 15px 0 50px;
+	margin: 15px 0 40px;
 	height:52px;
 	width: 232px;
 	border:none;
@@ -87,11 +85,11 @@ header.heroAreaCarousel img{
 	max-width: 100%;
 }
 
-header.heroAreaCarousel>ul>li{
+header.heroAreaCarousel ul li{
 	display: none;
 }
 
-header.heroAreaCarousel>ul>li.active{
+header.heroAreaCarousel ul li.active{
 	display: block;
 }
 
@@ -108,6 +106,8 @@ section.sliderText  h1 {
 	
 	font-weight: 300;
 	font-size: 120px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 	line-height: 130px;
 	margin: 0 15%;
 }
@@ -131,7 +131,7 @@ section.myProjects {
 	letter-spacing: 1.5px;
 	color: #000;
 }
-
+	
 
 section.myProjects h2{
 	width:100%;
@@ -141,9 +141,6 @@ section.myProjects h2{
 	font-size: 40px;
 }
 
-section.myProjects h2{
-	font-size: 30px;
-}
 
 section.myProjects p{
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
@@ -156,7 +153,8 @@ section.myProjects a {
 }
 
 article.project {
-	width: 50%;
+	width: 49%;
+	display: inline-block;
 }
 article.project img {
 	width:100%;
@@ -174,10 +172,15 @@ section.getInTouchLink{
 	font-weight: 300;
 	color: #fff;
 	font-size: 40px; 
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	text-align: center;
+	padding-top: 30px;
 }
-section.getInTouchLink{
+section.getInTouchLink p {
 	font-family: 'Roboto', sans-serif;;
 	font-size:16px;
+
 }
 
 /***** Social Sharing *****/
