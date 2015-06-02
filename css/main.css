@@ -57,18 +57,18 @@ ul.mainNav .activePage{
 
 /***** Hero Area Slider***************************************************/ 
 
-header.heroAreaCarousel{
+.heroAreaCarousel{
 	position: relative;
 }
 
-header.heroAreaCarousel nav ol{
+.heroAreaCarousel nav ol{
 	position: absolute;
 	bottom: 40px;
 	left: 0;
 	width: 100%;
 	text-align: center;
 }
-header.heroAreaCarousel nav li {
+.heroAreaCarousel nav li {
 	display: inline-block;
 	height: 4px;
 	width: 40px;
@@ -77,23 +77,23 @@ header.heroAreaCarousel nav li {
 	opacity: .4;
 	cursor: pointer;
 }
-header.heroAreaCarousel nav li.active {
+.heroAreaCarousel nav li.active {
 	opacity:1;
 }
 
-header.heroAreaCarousel img{
+.heroAreaCarousel img{
 	max-width: 100%;
 }
 
-header.heroAreaCarousel ul li{
+.heroAreaCarousel ul li{
 	display: none;
 }
 
-header.heroAreaCarousel ul li.active{
+.heroAreaCarousel ul li.active{
 	display: block;
 }
 
-section.sliderText {
+.sliderText {
 	position: absolute;
 	top:180px;
 	color: #fff;
@@ -102,7 +102,7 @@ section.sliderText {
 
 }
 
-section.sliderText  h1 {
+.sliderText  h1 {
 	
 	font-weight: 300;
 	font-size: 120px;
@@ -112,7 +112,7 @@ section.sliderText  h1 {
 	margin: 0 15%;
 }
 
-section.sliderText  p{
+.sliderText  p{
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 	font-size: 22px;	
 	font-weight: 200;
@@ -126,14 +126,14 @@ section.sliderText  p{
 
 /***** Portfolio Gallery Section **************************************************/
 
-section.myProjects {
+.myProjects {
 	font-weight: 400;
 	letter-spacing: 1.5px;
 	color: #000;
 }
 	
 
-section.myProjects h2{
+.myProjects h2{
 	width:100%;
 	text-align: center;
 	margin: 40px 0;
@@ -142,23 +142,24 @@ section.myProjects h2{
 }
 
 
-section.myProjects p{
+.myProjects p{
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 	font-weight: 200;
 	font-size: 14px;
 }
-section.myProjects a {
+.myProjects a {
 	text-decoration: none;
 	color: #000;
 }
 
-article.project {
+.project {
 	width: 49%;
 	display: inline-block;
+	
 }
-article.project img {
+.project img {
 	width:100%;
-	/*-webkit-clip-path: inset(0px 930px 500px 0px ); */  /*ASK WON!!!!!!!!!!!!!!!!!!!***********/
+	
 }
 
 
@@ -167,7 +168,7 @@ article.project img {
 
 
 /************************* Get in Touch ****************************/
-section.getInTouchLink{
+.getInTouchLink{
 	background-color: #f63c3c;
 	font-weight: 300;
 	color: #fff;
@@ -177,7 +178,7 @@ section.getInTouchLink{
 	text-align: center;
 	padding-top: 30px;
 }
-section.getInTouchLink p {
+.getInTouchLink p {
 	font-family: 'Roboto', sans-serif;;
 	font-size:16px;
 
