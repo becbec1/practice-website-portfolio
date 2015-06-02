@@ -28,6 +28,15 @@ header.pageHeader{
 	height:70px;
 }
 
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
 header nav {
 float:right;
 height: 70px;
@@ -141,7 +150,6 @@ ul.mainNav .activePage{
 	font-size: 40px;
 }
 
-
 .myProjects p{
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 	font-weight: 200;
@@ -160,6 +168,10 @@ ul.mainNav .activePage{
 .project img {
 	width:100%;
 	
+}
+.projectInfoHeight {
+	height: 125px;
+
 }
 
 
