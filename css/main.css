@@ -31,10 +31,8 @@ header.pageHeader{
 .clearfix:after {
     clear: both;
     content: ".";
-    display: block;
-    height: 0;
-    line-height: 0;
-    visibility: hidden;
+    display: table;
+    
 }
 
 header nav {
@@ -68,6 +66,7 @@ ul.mainNav .activePage{
 
 .heroAreaCarousel{
 	position: relative;
+	/***min-height: 100vh;**/
 }
 
 .heroAreaCarousel nav ol{
@@ -104,11 +103,13 @@ ul.mainNav .activePage{
 
 .sliderText {
 	position: absolute;
-	top:180px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
 	color: #fff;
-	text-align: center;	
-	
-
 }
 
 .sliderText  h1 {
@@ -118,7 +119,7 @@ ul.mainNav .activePage{
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	line-height: 130px;
-	margin: 0 15%;
+	
 }
 
 .sliderText  p{
@@ -142,14 +143,21 @@ ul.mainNav .activePage{
 }
 	
 
-.myProjects h2{
+.myProjects {
 	width:100%;
 	text-align: center;
-	margin: 40px 0;
 	text-transform: uppercase;
-	font-size: 40px;
+	
 }
 
+.myProjects h2{
+	  font-size: 40px;
+	  margin: 20px 0 
+}
+.myProjects h3 {
+	  font-size: 30px;
+	  margin: 20px 0 5px;
+}
 .myProjects p{
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 	font-weight: 200;
@@ -162,7 +170,9 @@ ul.mainNav .activePage{
 
 .project {
 	width: 49%;
+	height:625px;
 	display: inline-block;
+	vertical-align: top;
 	
 }
 .project img {
