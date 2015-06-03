@@ -151,17 +151,49 @@ section.myProjects a {
 	text-decoration: none;
 	color: #000;
 }
+.project:nth-child(even){
+	margin-left: 1%;
+	margin-right: .5%;
+}
+
+.project:nth-child(odd){
+	margin-left: .5%;
+	margin-right: 1%;
+} 
 
 article.project {
-	width: 49%;
+	width: 48.3%;
 	display: inline-block;
+	vertical-align: top;
+	text-align: center;
 }
+article.project h3 {
+	font-size: 30px;
+	margin: 30px 0 20px;
+}
+
+article.project p{
+	margin-bottom: 30px;
+}
+
 article.project img {
 	width:100%;
 	/*-webkit-clip-path: inset(0px 930px 500px 0px ); */  /*ASK WON!!!!!!!!!!!!!!!!!!!***********/
 }
 
 
+.showMoreLink  a {
+	color: #f63c3c;
+	font-size: 20px;
+	
+}
+.showMoreLink {
+	border-bottom: solid 2px #f63c3c;
+  	width: 144px;
+  	text-align: center;
+  	margin: 0 auto 10px;
+
+}
 
 
 
