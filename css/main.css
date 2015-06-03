@@ -1,0 +1,221 @@
+/**** Universal Styles *************/
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+/*******line-height: 1.5;**********************   Check later***********/
+	font-weight:300;
+	color: #555;
+}
+
+h1, h2, h3, #projects, .explore, ul.socail li a{
+	font-family: 'Teko', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+h2,h2, h3, ul.socail li a {
+	font-weight: 400;
+	letter-spacing: 1.5px;
+
+}
+
+h1{
+	font-weight: 300;
+	font-size: 120px;
+/***** Main Page Navigation *****/
+
+header.pageHeader{
+	width: 61%;
+	margin: auto;
+	height:70px;
+}
+
+.clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+header nav {
+float:right;
+height: 70px;
+}
+
+header.pageHeader li {
+	padding-top: 17px;
+}
+
+ ul.mainNav li {
+	float:left;
+	margin:10px;
+	
+}
+ul.mainNav li a{
+	text-decoration: none;
+	color: #a3a3a3;
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 16px;	
+}
+ul.mainNav .activePage{
+	color: #f63c3c;
+	border-bottom: 4px solid #f63c3c;
+	padding-bottom: 19px;
+}
+
+
+/***** Hero Area Slider***************************************************/ 
+
+.heroAreaCarousel{
+	position: relative;
+	height: 90vh;
+	text-align: center;
+}
+
+.heroAreaCarousel nav ol{
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	width: 100%;
+	
+}
+.heroAreaCarousel nav li {
+	display: inline-block;
+	height: 4px;
+	width: 40px;
+	margin: 0 5px;
+	background-color: white;
+	opacity: .4;
+	cursor: pointer;
+}
+.heroAreaCarousel nav li.active {
+	opacity:1;
+}
+
+.heroAreaCarousel img{
+	max-width: 100%;
+}
+
+.heroAreaCarousel ul li{
+	display: none;
+}
+
+.heroAreaCarousel ul li.active{
+	display: block;
+}
+
+.sliderText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.sliderText  h1 {
+	
+	font-weight: 300;
+	font-size: 120px;
+	text-transform: uppercase;
+	
+	line-height: 130px;
+	
+}
+
+.sliderText  p{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 22px;	
+	font-weight: 200;
+	margin: 11px 20% 35px;
+	
+	line-height: 30px;
+}
+
+
+
+
+/***** Portfolio Gallery Section **************************************************/
+
+.myProjects {
+	font-weight: 400;
+	
+	color: #000;
+}
+	
+
+.myProjects {
+	width:100%;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.myProjects h2{
+	  font-size: 40px;
+	  margin: 20px 0 
+}
+.myProjects h3 {
+	  font-size: 30px;
+	  margin: 20px 0 5px;
+}
+.myProjects p{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+}
+.myProjects a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	border-bottom: 4px solid #f63c3c;
+}
+
+.project {
+	width: 49%;
+	height:625px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.project img {
+	width:100%;
+	
+}
+.projectInfoHeight {
+	height: 125px;
+
+}
+
+
+
+
+
+
+/************************* Get in Touch ****************************/
+.getInTouchLink{
+	background-color: #f63c3c;
+	font-weight: 300;
+	color: #fff;
+	font-size: 40px; 
+	text-transform: uppercase;
+	
+	text-align: center;
+	padding-top: 30px;
+}
+.getInTouchLink p {
+	font-family: 'Roboto', sans-serif;;
+	font-size:16px;
+
+}
+
+/***** Social Sharing *****/
+
+/***** Page Footer *******/
+
+
+
