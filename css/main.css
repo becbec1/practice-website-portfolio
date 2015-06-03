@@ -1,54 +1,191 @@
-/**** Universal Styles *************/
 *{
 	box-sizing:border-box;
 }
 
 body{
-	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
-	font-size: 14px;
-/*******line-height: 1.5;**********************   Check later***********/
-	font-weight:300;
-	color: #555;
+	font-family: 'Teko', Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, #projects, .explore, ul.socail li a{
-	font-family: 'Teko', Arial, sans-serif;
+button {
+	margin: 15px 0 40px;
+	height:52px;
+	width: 232px;
+	border:none;
 	text-transform: uppercase;
-}
-
-h2,h2, h3, ul.socail li a {
+	font-size: 20px;
 	font-weight: 400;
-	letter-spacing: 1.5px;
+	letter-spacing: 1.6px;
 }
 
-h1{
+
+
+
+/***** Main Page Navigation *****/
+
+header.pageHeader{
+	width: 61%;
+	margin: auto;
+	height:70px;
+}
+
+header nav {
+float:right;
+height: 70px;
+}
+
+header.pageHeader li {
+	padding-top: 17px;
+}
+
+ ul.mainNav li {
+	float:left;
+	margin:10px;
+	
+}
+ul.mainNav li a{
+	text-decoration: none;
+	color: #a3a3a3;
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 16px;	
+}
+ul.mainNav .activePage{
+	color: #f63c3c;
+	border-bottom: 4px solid #f63c3c;
+	padding-bottom: 19px;
+}
+
+
+/***** Hero Area Slider***************************************************/ 
+
+header.heroAreaCarousel{
+	position: relative;
+}
+
+header.heroAreaCarousel nav ol{
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+header.heroAreaCarousel nav li {
+	display: inline-block;
+	height: 4px;
+	width: 40px;
+	margin: 0 5px;
+	background-color: white;
+	opacity: .4;
+	cursor: pointer;
+}
+header.heroAreaCarousel nav li.active {
+	opacity:1;
+}
+
+header.heroAreaCarousel img{
+	max-width: 100%;
+}
+
+header.heroAreaCarousel ul li{
+	display: none;
+}
+
+header.heroAreaCarousel ul li.active{
+	display: block;
+}
+
+section.sliderText {
+	position: absolute;
+	top:180px;
+	color: #fff;
+	text-align: center;	
+	
+
+}
+
+section.sliderText  h1 {
+	
 	font-weight: 300;
 	font-size: 120px;
-	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 130px;
+	margin: 0 15%;
+}
+
+section.sliderText  p{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 22px;	
+	font-weight: 200;
+	margin: 11px 20% 35px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+
+
+
+
+/***** Portfolio Gallery Section **************************************************/
+
+section.myProjects {
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	color: #000;
+}
+	
+
+section.myProjects h2{
+	width:100%;
 	text-align: center;
-	/*letter-spacing: 
-	line-height:;
-	margin-bottom:;
-***********tweak in browser** */
-}
-
-h2 {
+	margin: 40px 0;
+	text-transform: uppercase;
 	font-size: 40px;
-	color:#000;
 }
 
-h3 {
-	font-size: 30px;
-	color:#000;
+
+section.myProjects p{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 14px;
 }
-a {
+section.myProjects a {
 	text-decoration: none;
+	color: #000;
 }
 
-.clearfix:after{
-	display: table;
-	content: '';
-	clear: both;
+article.project {
+	width: 49%;
+	display: inline-block;
 }
+article.project img {
+	width:100%;
+	/*-webkit-clip-path: inset(0px 930px 500px 0px ); */  /*ASK WON!!!!!!!!!!!!!!!!!!!***********/
+}
+
+
+
+
+
+
+/************************* Get in Touch ****************************/
+section.getInTouchLink{
+	background-color: #f63c3c;
+	font-weight: 300;
+	color: #fff;
+	font-size: 40px; 
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	text-align: center;
+	padding-top: 30px;
+}
+section.getInTouchLink p {
+	font-family: 'Roboto', sans-serif;;
+	font-size:16px;
+
+}
+
+/***** Social Sharing *****/
+
+/***** Page Footer *******/
+
 
 
