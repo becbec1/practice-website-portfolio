@@ -19,12 +19,39 @@ h1, h2, h3, #projects, .explore, ul.socail li a{
 h2,h2, h3, ul.socail li a {
 	font-weight: 400;
 	letter-spacing: 1.5px;
-
 }
 
 h1{
 	font-weight: 300;
 	font-size: 120px;
+	color: #fff;
+	text-align: center;
+	/*letter-spacing: 
+	line-height:;
+	margin-bottom:;
+***********tweak in browser** */
+}
+
+h2 {
+	font-size: 40px;
+	color:#000;
+}
+
+h3 {
+	font-size: 30px;
+	color:#000;
+}
+a {
+	text-decoration: none;
+}
+
+.clearfix:after{
+	display: table;
+	content: '';
+	clear: both;
+}
+
+
 /***** Main Page Navigation *****/
 
 header.pageHeader{
