@@ -29,10 +29,9 @@ header.pageHeader{
 }
 
 .clearfix:after {
-    clear: both;
-    content: ".";
     display: table;
-    
+    clear: both;
+    content: "";
 }
 
 header nav {
@@ -66,7 +65,8 @@ ul.mainNav .activePage{
 
 .heroAreaCarousel{
 	position: relative;
-	/***min-height: 100vh;**/
+	height: 90vh;
+	text-align: center;
 }
 
 .heroAreaCarousel nav ol{
@@ -74,7 +74,7 @@ ul.mainNav .activePage{
 	bottom: 40px;
 	left: 0;
 	width: 100%;
-	text-align: center;
+	
 }
 .heroAreaCarousel nav li {
 	display: inline-block;
@@ -166,6 +166,8 @@ ul.mainNav .activePage{
 .myProjects a {
 	text-decoration: none;
 	color: #000;
+	font-size: 20px;
+	border-bottom: 4px solid #f63c3c;
 }
 
 .project {
