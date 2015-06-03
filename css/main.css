@@ -2,8 +2,13 @@
 	box-sizing:border-box;
 }
 
+html{
+font-size: 16px;
+}
+
 body{
 	font-family: 'Teko', Helvetica, Arial, sans-serif;
+	font-size: 62.5%; /*** 1em will = 10px now***/
 }
 
 button {
@@ -12,9 +17,9 @@ button {
 	width: 232px;
 	border:none;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 400;
-	letter-spacing: 1.6px;
+	letter-spacing: 1.6em;
 }
 
 
@@ -126,6 +131,12 @@ section.sliderText  p{
 
 /***** Portfolio Gallery Section **************************************************/
 
+article.project {
+	width: 48.3%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
 section.myProjects {
 	font-weight: 400;
 	letter-spacing: 1.5px;
@@ -161,12 +172,7 @@ section.myProjects a {
 	margin-right: 1%;
 } 
 
-article.project {
-	width: 48.3%;
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-}
+
 article.project h3 {
 	font-size: 30px;
 	margin: 30px 0 20px;
@@ -178,13 +184,14 @@ article.project p{
 
 article.project img {
 	width:100%;
-	/*-webkit-clip-path: inset(0px 930px 500px 0px ); */  /*ASK WON!!!!!!!!!!!!!!!!!!!***********/
+	
 }
 
 
-.showMoreLink  a {
+section.showMoreLink  a {
 	color: #f63c3c;
 	font-size: 20px;
+	text-decoration: none:
 	
 }
 .showMoreLink {
@@ -208,6 +215,7 @@ section.getInTouchLink{
 	letter-spacing: 1.6px;
 	text-align: center;
 	padding-top: 30px;
+	 margin-top: 60px;
 }
 section.getInTouchLink p {
 	font-family: 'Roboto', sans-serif;;
@@ -216,8 +224,38 @@ section.getInTouchLink p {
 }
 
 /***** Social Sharing *****/
+.stayConnected {
+	margin: 60px auto 70px;
+	text-align: center;
+}
+
+.socialIcons a{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+	text-decoration: none;
+	
+}
+.socialIcons li{
+	display: inline-block;
+	width: 270px;
+	height: 190px;
+	background-color: black;
+	margin-top: 60px;
+	
+}
 
 /***** Page Footer *******/
 
+footer{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	margin-bottom: 40px;
+	font-weight: 13px;
+	
+}
 
+/***** Media Queries************/
+
+@media screen and (max-width: 768px;) {
 
