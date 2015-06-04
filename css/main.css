@@ -12,14 +12,14 @@ body{
 }
 
 button {
-	margin: 15px 0 40px;
-	height:52px;
-	width: 232px;
-	border:none;
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 400;
-	letter-spacing: 16px;
+	  margin: 15px 0 40px;
+  height: 52px;
+  width: 238px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 
@@ -64,6 +64,7 @@ ul.mainNav .activePage{
 
 header.heroAreaCarousel{
 	position: relative;
+	height: 1009px;
 }
 
 header.heroAreaCarousel nav ol{
@@ -100,9 +101,11 @@ header.heroAreaCarousel ul li.active{
 
 section.sliderText {
 	position: absolute;
-	top:13em;
+	top: 50%;
+	left: 50%;
 	color: #fff;
-	text-align: center;	
+	text-align: center;
+	transform: translate(-50%,-50%);
 	
 
 }
@@ -123,7 +126,7 @@ section.sliderText  p {
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 	font-size: 22px;	
 	font-weight: 200;
-	margin: 11px 20% 35px;
+	margin: 11px 0 35px;
 	letter-spacing: 1.5px;
 	line-height: 30px;
 }
