@@ -34,6 +34,9 @@ header.pageHeader{
 	height:70px;
 }
 
+.hamburgerMenu{
+	display:none;
+}
 header nav {
 float:right;
 height: 70px;
@@ -271,6 +274,7 @@ section.getInTouchLink p {
 	height: 14em;
 	background-color: black;
 	margin: 0 .7%;
+	 text-align: center;
 	
 }
 
@@ -317,9 +321,6 @@ footer{
 	header.pageHeader {
 		width: 75%;
 	}
-	header nav {
-	/*margin-right: 60px*/
-	}
 
 	section.sliderText {
 		transform: translate(-50%,-35%);
@@ -359,49 +360,170 @@ footer{
 
 
 }
-@media screen and (max-width:767px) and (min-width:480px) {
+@media screen and (max-width:767px) and (min-width:550px) {
 	
 	header.pageHeader {
 		width: 100%;
 	}
-	header nav {
-	/*margin-right: 60px*/
-	}
 
+	.hamburgerMenu{
+		height:70px;
+		width:70px;
+		background-color: gray;
+	}
 	section.sliderText {
-		transform: translate(-50%,-35%);
+		transform: translate(-50%,-50%);
 	}
 	section.sliderText  h1 {
 		
-  		font-size: 5.5em;
+  		font-size: 4.5em;
 	    letter-spacing: .07em;
 		line-height: .85em;
 	}
 
 	section.sliderText  p {
-	    font-size: 1.7em;
+	    font-size: 1.2em;
   		letter-spacing: .15em;
   		line-height: 1.2em;
- 		margin: 25px 0 10px;
+ 		margin: 10px 0 ;
 	}
+
+	button {
+		  margin: 0px;
+		  height: 25px;
+		  width: 130px;
+		  font-size: 8px;
+		  letter-spacing: 2px;
+	}
+
 	header.heroAreaCarousel nav ol{
-		bottom:25px;
+		bottom:5%;
 	}
+
+	article.project {
+  		width: 100%;
+  	}
 
 	article.project h3 {
 		  margin: 20px 0 20px;
 	}
 
-	section.getInTouchLink {
-		margin-top: 35px;
+	section.myProjects h2{
+		  font-size: 35px;
 	}
 
+	section.getInTouchLink {
+		margin-top: 35px;
+		font-size: 3em;
+	}
+
+	section.getInTouchLink p{
+		  font-size: 10px;
+  			margin: 1em;
+	}
+
+	.getInTouchLink button {
+		margin-bottom: 20px;
+	}
 	.stayConnected {
-		width: 100%;
+		width: 90%;
 		
 	}
 	.socialIcons li {
-		height: 13em;
+		height: 10em;
 	}
+
+}
+@media screen and (max-width:549px){
+
+	header.pageHeader {
+		width: 100%;
+		background-color: #7d787e;
+	}
+	
+	header.pageHeader li {
+  	padding-top: 0px;
+}
+.hamburgerMenu {
+	
+		display: block;
+		height: 40px;
+		width: 40px;
+		margin: 20px 20px 0 0;
+		float:right;
+	}
+
+	.hamburgerMenu ul li{
+		display:block;
+		height: 2px;
+		width: 18px;
+		background-color: white;
+		 margin: 6px 3px;
+	}
+
+	header.pageHeader nav{
+		display: none;
+	}
+
+	section.sliderText {
+		  width: 90%;
+		  transform: translate(-50%,-63%);
+	}
+	section.sliderText  h1 {
+		
+  		font-size: 3em;
+	}
+
+	section.sliderText  p {
+	    line-height: 15px;
+	    font-size: 15px;
+
+	}
+
+	button {
+		  margin: 0px;
+		  height: 25px;
+		  width: 130px;
+		  font-size: 8px;
+		  letter-spacing: 2px;
+	}
+
+	header.heroAreaCarousel nav ol{
+		display:none;
+	}
+
+	article.project {
+  		width: 100%;
+  	}
+
+	article.project h3 {
+		  margin: 20px 0 20px;
+	}
+
+	section.myProjects h2{
+		  font-size: 35px;
+	}
+
+	section.getInTouchLink {
+		margin-top: 35px;
+		font-size: 3em;
+	}
+
+	section.getInTouchLink p{
+		  font-size: 10px;
+  			margin: 1em;
+	}
+
+	.getInTouchLink button {
+		margin-bottom: 20px;
+	}
+	.stayConnected {
+		width: 90%;
+		
+	}
+	.socialIcons li {
+		width:45%;
+	}
+
 
 }
